@@ -1,0 +1,16 @@
+一。自己真正的去接触Github,发现世界真的好大，同时学习真的能给人快乐（管他是不是为了装bi~~~）
+
+	1.因为Github客户端是真心下载不下来，所以选择了msysgit（据了解msysgit是目前最为广泛及实用工具之一）。
+	  安装完成后，进入到要托管的项目根目录，右键启动Git Bash命令行，输入git  clone  接着输入github项目
+	  地址，回车（此时服务器上面的项目会clone到本地）
+
+	2.cd Hello-World (进入项目根目录)
+
+	3.输入git add .    将改动的地方添加到版本管理器
+
+	4.输入git  commit -m "changes log" 提交到本地的版本控制库里，引号里面是你对本次提交的说明信息。
+	**注意：此时第一次用Git,需要配置，连接https://git-scm.com/book/zh/v1/%E8%B5%B7%E6%AD%A5-%E5%88%9D%E6%AC%A1%E8%BF%90%E8%A1%8C-Git-%E5%89%8D%E7%9A%84%E9%85%8D%E7%BD%AE
+	（现在更加看清自己有多low！！！）。
+
+	
+	5.最后输入git push -u origin master  ，输入github账号密码，成功提交更新。
